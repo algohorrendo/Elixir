@@ -143,6 +143,15 @@ function Dashboard() {
     return colores[severidad] || 'var(--primary-color)';
   };
 
+  const getSeveridadColor = (severidad) => {
+    const colores = {
+      alta: '#f56565',
+      media: '#b7791f',
+      baja: '#d69e2e',
+    };
+    return colores[severidad] || '#1a365d';
+  };
+
   return (
     <div className="dashboard-gerente-container">
       {/* Header */}

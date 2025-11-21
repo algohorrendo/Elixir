@@ -104,6 +104,11 @@ function Header() {
                     </a>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
+                        <a className="dropdown-item" href="/dashboard">
+                          <i className="fas fa-tachometer-alt"></i> Panel de Gerente
+                        </a>
+                      </li>
+                      <li>
                         <a className="dropdown-item" href="/perfil">
                           <i className="fas fa-user-circle"></i> Mi Perfil
                         </a>

@@ -20,7 +20,7 @@ function Home() {
         <p className="lead text-center mb-5">
           Tu botillería premium online. Los mejores vinos, cervezas y destilados a un solo clic, con envío rápido y seguro.
         </p>
-        <div className="text-center">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button 
             onClick={() => navigate('/catalogo')}
             className="btn btn-primary btn-lg"
